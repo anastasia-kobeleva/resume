@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="nikita, cv, resume">
+    <meta name="description" content="Это сайт - резюме Никиты Санникова">
+    <title>Nikita Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="pic.jpg" alt="Аватарка" class="avatar">
+
+            <div class="info-text">
+                <h1>Анастасия Кобелева</h1>
+
+                <p>Я Анастасия Кобелева, изучаю Figma и иллюстрацию </p>
+                <p>Я люблю спорт и рисование</p>
+
+                <h4> Список социальных сетей:</h4>
+
+                <a href="https://vk.com/kobeleva_nastya" target="_blank">Вконтакте </a>
+                |
+                <a href="https://t.me/nastcherry" target="_blank"> Telegram</a>
+            </div>
+        </div>
+
+        <div class="card2 bg-green">
+
+            <h2> Мои хобби</h2>
+
+            <ol class="list">
+                <li>Рисование</li>
+                <li>Спорт</li>
+                <li>Иностранные языки</li>
+            </ol>
+
+        </div>
+
+        <div class="card bg-red">
+
+            <h2> Опыт работы</h2>
+
+            <table class="table">
+                <!-- <thead>
+            <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+        </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Поль Бейкери</td>
+                        <td>Кассир</td>
+                        <td>2017 – 2018</td>
+                    </tr>
+                    <tr>
+                        <td>Макдоналдс</td>
+                        <td>Работник ПБО</td>
+                        <td>2018 – 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Макдоналдс</td>
+                        <td>Инструктор ПБО</td>
+                        <td>2020 – 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Макдоналдс</td>
+                        <td>Менеджер</td>
+                        <td>2021 – 2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Пройденные курсы</h2>
+            <ul class="link-list">
+                <li>  Курс по Figma от Skillbox</li>
+                
+            </ul>
+        </div>
+
+
+
+        <form class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <div>
+                <button type="submit" class="btn">Отправить!</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
